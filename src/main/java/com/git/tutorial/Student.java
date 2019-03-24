@@ -19,6 +19,17 @@ public class Student implements Serializable {
 	public Student() {
 		// No-argument Constructor
 	}
+	
+	/**
+	 * @param studentId
+	 * @param studentName
+	 */
+	public Student(String studentId, String studentName) {
+		super();
+		this.studentId = studentId;
+		this.studentName = studentName;
+	}
+
 	/**
 	 * @return the studentId
 	 */
